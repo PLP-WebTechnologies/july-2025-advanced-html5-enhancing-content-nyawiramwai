@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form </title>
+</head>
+<body>
+    <header>
+        <h1>welcome to our page</h1>
+        <p>this page includes a form with enhanced functionality</p>
+    </header>
+    <section>
+        <h2>steps to complete registration</h2>
+        <ol>
+            <li>filling your personal details</li>
+            <li>selecting your preferred language</li>
+            <li>submit the form</li>
+        </ol>
+    </section>
+    <section>
+        <h2>benefits of joining</h2>
+        <ul>
+            <li>free monthly newsletter</li>
+            <li>early access to our new features</li>
+            <li>customer support </li>
+        </ul>
+    </section>
+    <section>
+        <h2>activities</h2>
+        <table border ="1">
+             <thead>
+            <tr>
+                <th>plan</th>
+                <th>price</th>
+                <th>duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>basic</td>
+                <td>10000</td>
+                <td>1 month</td>
+            </tr>
+            <tr>
+                <td>premium</td>
+                <td>20000</td>
+                <td>2 month</td>
+            </tr>
+            <tr>
+                <td>annual</td>
+                <td>30000</td>
+                <td>3 month</td>
+            </tr>
+        </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>welcome audio</h2>
+        <audio src="All Of Me.mp3" controls></audio>
+    </section>
+    <section>
+        <h2>welcome video</h2>
+         <video src="19068664-hd_1080_1920_30fps.mp4" width="300" controls></video>
+    </section>
+<section>
+    <h2>registration form</h2>
+     <form action="#" method="post" autocomplete="on">
+    <fieldset>
+        <legend>personal information</legend>
+        <label for="username">username or email:</label>
+        <input type="text" id="username" name="username" placeholder="enter username or email" requred><br><br
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" placeholder="enter password" minlength="8" requred><br><br
+          <label for=" confirm password">confirm password:</label>
+        <input type=" confirm password" id=" confirm password" name=" confirm password" placeholder="re-enter password" minlength="8" requred><br><br
+        <label for="plan">select your pla:</label>
+        <select id="plan" name="plan" required>
+            <option value="basic">basic</option>
+             <option value="basic">premium</option>
+              <option value="basic">annual</option>
+        </select><br><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        </form>
+    </fieldset>
+</section>
+<footer>
+    <p>&copy;2025 enhanced form</p>
+</footer>
+
+</body>
+</html>
